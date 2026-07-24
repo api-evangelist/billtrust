@@ -1,8 +1,29 @@
 aid: billtrust
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/billtrust.png
 name: Billtrust
-description: 'Billtrust is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Billtrust is an AI-powered accounts receivable and B2B payments technology company
+  that helps businesses accelerate cash flow by automating the order-to-cash cycle.
+  Its platform spans automated invoicing and invoice delivery, B2B payment acceptance
+  across multiple modalities, AI-driven cash application that matches payments to
+  invoices, intelligent collections, credit decisioning, and a B2B eCommerce storefront.
+  Billtrust connects to more than 40 ERP systems and 260+ accounts-payable portals,
+  serving manufacturing, distribution, equipment, medical, retail, transportation, and
+  business-services companies. This API Evangelist profile was seeded from the Bain
+  Capital Ventures portfolio; Billtrust does not currently publish an open public
+  developer portal or OpenAPI, so enrichment captures its identity, compliance program,
+  and domain security posture from public surfaces.
 url: https://raw.githubusercontent.com/api-evangelist/billtrust/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Accounts Receivable
+- B2B Payments
+- Invoicing
+- Cash Application
+- Collections
+- Order to Cash
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.billtrust.com/
+- type: Support
+  url: https://help.billtrust.com/
+- type: HelpCenter
+  url: https://help.billtrust.com/
+- type: Blog
+  url: https://www.billtrust.com/resources/blog
+- type: GitHubOrganization
+  url: https://github.com/billtrust
+- type: PrivacyPolicy
+  url: https://www.billtrust.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.billtrust.com/legal
+- type: Compliance
+  url: https://www.billtrust.com/legal/data-privacy-certifications-to-security-and-compliance-certifications
+- type: Conformance
+  url: conformance/billtrust-conformance.yml
+- type: DomainSecurity
+  url: security/billtrust-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
