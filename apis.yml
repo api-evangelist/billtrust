@@ -50,6 +50,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Login
+  url: https://app.billtrust.com/login
 - type: Website
   url: https://www.billtrust.com/
 - type: Support
