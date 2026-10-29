@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Billtrust is a company surfaced as a portfolio company of bain-capital-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Billtrust is an AI-powered accounts receivable and B2B payments technology company that helps businesses accelerate cash flow by automating the order-to-cash cycle. Its platform spans automated invoicing and invoice delivery, B2B payment acceptance across multiple modalities, AI-driven cash application that matches payments to invoices, intelligent collections, credit decisioning, and a B2B eCommerce storefront. Billtrust connects to more than 40 ERP systems and 260+ accounts-payable portals, serving manufacturing, distribution, equipment, medical, retail, transportation, and business-services companies. This API Evangelist profile was seeded from the Bain Capital Ventures portfolio; Billtrust does not currently publish an open public developer portal or OpenAPI, so enrichment captures its identity, compliance program, and domain security posture from public surfaces.
 
-Backed by: bain-capital-ventures — https://www.billtrust.com/
+**Areas:** Company · Fintech · Accounts Receivable · B2B Payments · Invoicing · Cash Application · Collection · Order-to-Cash
+
+## Billtrust on APIs.io
+
+Everything profiled for Billtrust is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/billtrust/](https://apis.io/providers/billtrust/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Billtrust Domain Security](https://apis.io/security/billtrust/billtrust-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.billtrust.com/)
+- [Support](https://help.billtrust.com/)
+- [Blog](https://www.billtrust.com/resources/blog)
+- [Compliance](https://www.billtrust.com/legal/data-privacy-certifications-to-security-and-compliance-certifications)
+- [Terms of service](https://www.billtrust.com/legal)
+- [Privacy policy](https://www.billtrust.com/legal/privacy-policy)
+- [GitHub](https://github.com/billtrust)
+
+## API Evangelist rating
+
+**Kin Score 17.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 35.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 28.6** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/billtrust/](https://apis.io/providers/billtrust/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Billtrust: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/billtrust/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
